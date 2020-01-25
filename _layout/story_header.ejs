@@ -1,0 +1,14 @@
+    <section class="content">
+        <div class="container">
+            <div class="columns is-desktop is-centered">
+                <div class="column is-8">
+                    <img src="<%= meta.image %>" alt="<%= meta.image %>">
+                    <p class="iffj-author is-size-7">
+                        <span class="iffj-author"><%= meta.author %></span>
+                        <span class="iffj-pubdate is-pulled-right"><%= meta.pubdate %></span>
+                    </p>
+                    <div class="iffj-story">
+                    </div>
+                    <script src="/dist/js/marked.min.js"></script>
+                    <script>
+                        const data = `

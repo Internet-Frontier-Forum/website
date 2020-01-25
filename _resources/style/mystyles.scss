@@ -1,0 +1,35 @@
+@charset "utf-8";
+$info: #BE3633;
+$primary: #BE3633;
+$link: #BE3633;
+$font-family: '-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif';
+$fullhd: 1152px;
+
+.media,content {
+    height : auto;
+    overflow : visible;
+}
+
+.iffj-brand-logo {
+    padding: 10px;
+}
+
+.iffj-content {
+    padding: 20px;
+}
+
+.iffj-top {
+    padding: 20px;
+}
+
+.iffj-story {
+    padding: 15px;
+    line-height: 1.6;
+}
+
+.iffj-author {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+@import "~bulma/bulma";

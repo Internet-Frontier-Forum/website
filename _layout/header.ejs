@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="<%= meta.desc %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta property="og:title" content="<%= meta.title %>">
+    <meta property="og:image" content="https://iffj.org<%= meta.image %>">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="<%= meta.desc %>">
+    <meta property="og:url" content="https://iffj.org<%= meta.url %>">
+    <meta property="og:site_name" content="<%= meta.title %>">
+    <title><%= meta.title %></title>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/iffj_favicon.png">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <script async src="/dist/js/navbar.js"></script>
+
+</head>
+<body>
+    <section class="iffj-header">
+        <div class="container">
+            <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="iffj-brand-logo" href="/">
+                        <img src="/images/iffj_logo.png" alt="internet Frontier Forum" height="75px" width="150px">
+                    </a>
+                    <div id="navbarBurger" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mydatajapan-nav">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="iffj-nav" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item button is-light" href="/aboutus/">IFFについて</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
