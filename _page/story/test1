@@ -1,0 +1,17 @@
+<% var meta = { 
+  title:'ロレム・イプサムの嘆き、トマト大好き学部のエリット、しかし時と活力、そのような労働と悲しみ', 
+  desc:'ロレム・イプサムの嘆き、トマト大好き学部のエリット、しかし時と活力、そのような労働と悲しみ',
+  url: '/story/sample.html',
+  image: '/images/ogp_1200x630.png',
+  author : 'Masako Wakae',
+  pubdate : '2020-02-01 00:00:00'
+}; %>
+<%- include('../../_layout/header', {meta: meta}) -%>
+<%- include('../../_layout/story_header', {meta: meta}) -%>
+
+#労働と悲しみ
+
+シビルソサエティにおいて重要なことは
+
+<%- include('../../_layout/story_footer') -%>
+<%- include('../../_layout/footer') -%>
